@@ -1,0 +1,94 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    font-family: 'Poppins', sans-serif;
+    /* height: 400vh; */
+    background-color: #edfdedc7;
+}
+.hey{
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #21B573;
+    border: none;
+    color: white;
+}
+.btn {
+    padding: 0px 5px;
+    border-radius: 50px;
+    background-color: #21B573;
+    color: white;
+}
+.hey:hover{
+    background-color: white;
+    color: #21B573;
+}
+.btn a{
+    color: white;
+}
+.btn a:hover{
+    color: #21B573;
+}
+.btn:hover{
+    background-color: white;
+    color: #21B573;
+}
+.Light-Green{
+    color: #21B573;
+}
+.text{
+    padding: 25px 20px;
+}
+.container{
+    margin-bottom: 80px;
+}
+.hei{
+    width: 80px;
+    height: 83px;
+}
+.card:hover{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 8px;
+}
+.card{
+    border: none;
+    /* border: 2px solid red; */
+    padding: 30px 18px;
+}
+.back{
+    background-color: white;
+}
+.pa{
+    margin-top: 10px;
+}
+footer{
+    height: 340px;
+    background-color: #282531;
+}
+.rew1 p{
+    color: lightgray;
+}
+.pas {
+    padding: 55px 10px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.footer{
+    text-align: center;
+    color: lightgray;
+}
+@media only screen and (max-width:767px){
+    .container{
+        margin-bottom: 20px;
+    }
+    footer .p{
+        visibility: hidden;
+        position: absolute;
+    }
+    .footer{
+        color: black;
+    }
+ }
